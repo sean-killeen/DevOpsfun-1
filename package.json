@@ -2,11 +2,12 @@
   "name": "dep_ops_fun",
   "version": "1.0.0",
   "description": "Hackathon project",
-  "main": "serve.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node server.js",
     "test": "mocha test/tests.js"
   },
   "repository": {
