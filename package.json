@@ -1,0 +1,32 @@
+{
+  "name": "dep_ops_fun",
+  "version": "1.0.0",
+  "description": "Hackathon project",
+  "main": "serve.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remojansen/DevOpsfun.git"
+  },
+  "author": "Remo H. Jansen <remo.jansen@wolksoftware.com> (http://www.remojansen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remojansen/DevOpsfun/issues"
+  },
+  "homepage": "https://github.com/remojansen/DevOpsfun#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.15"
+  }
+}
