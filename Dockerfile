@@ -10,7 +10,7 @@ COPY . /usr/src/app/
 # Install app dependencies
 RUN npm install
 
-# Install app dependencies
+# Run CI
 RUN npm test
 
 EXPOSE 8080
